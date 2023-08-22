@@ -19,7 +19,7 @@ class _DoctorsCarouselState extends State<DoctorsCarousel> {
           Carousel1("assets/drPuneet.jpg","Dr. Puneet","MD Pediatrics(Safdarjung)","10 years of experience(Fortis\n        Hospital,Kangra)" ),
           Carousel1( "assets/drRajat.jpg","Dr. Rajat \nGoswami","MD Paediatrics(Blossoms Kids \n                   Clinic)","10 years experience,Newborn\n      and Child Specialist"),
           Carousel1("assets/karpagam.jpg","Ms. Karpagam", "Certified Lactation Expert","Helped 1000+ mothers (Mother \n                        of 2)"),
-          Carousel1("assets/drChadani.jpg", "Dr.Chandani J.", "OB-GYN(Medilife Hospital", "7 years of experience, NTRHUS"),
+          Carousel1("assets/drChadani.jpg", "Dr.Chandani J.", "OB-GYN(Medilife Hospital)", "7 years of experience, NTRHUS"),
           Carousel1("assets/drPriyanka (1).jpg", "Dr. Priyanka\n        Tiwari", "DNB Paediatrics(Jaypee \n       Hospital,Noida","8years experience,VMMC,\n                    Delhi")
         ],
         options: CarouselOptions(
@@ -48,7 +48,7 @@ class _DoctorsCarouselState extends State<DoctorsCarousel> {
           Positioned(
             bottom:2,
             child: Container(
-              width: 390,
+              width: 400,
               height: 700,
               decoration: BoxDecoration(
                   boxShadow: [BoxShadow(
@@ -73,20 +73,29 @@ class _DoctorsCarouselState extends State<DoctorsCarousel> {
                 padding: const EdgeInsets.only(top:60.0),
                 child: Column(
                   children: [
-                    Text(t1,style: GoogleFonts.poppins(
-                      color: Color(0xffcbd5e1),
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,),),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(t1,style: GoogleFonts.poppins(
+                        color: Color(0xffcbd5e1),
+                        fontSize: 25,
+                        fontWeight: FontWeight.bold,),),
+                    ),
                     SizedBox(height: 10,),
-                    Text(t2,style: GoogleFonts.poppins(
-                      color: Colors.white,
-                      fontSize:16,
-                      )),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(t2,style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize:15,
+                        )),
+                    ),
                     SizedBox(height: 20,),
-                    Text(t3,style: GoogleFonts.poppins(
-                      color: Colors.white,
-                      fontSize: 16,
-                     )),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(t3,style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 14,
+                       )),
+                    ),
                   ],
                 ),
               ),

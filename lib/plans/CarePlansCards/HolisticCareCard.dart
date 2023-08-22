@@ -100,14 +100,12 @@ class _Card3State extends State<Card3> {
                               padding: const EdgeInsets.only(left: 10.0,right: 10,bottom: 20,top: 7),
                               child: Container(height: 40,
                                 width: 250,
-                                child: Expanded(
-                                  child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                    children: [
-                                      Container(child: Icon(Icons.credit_card),color: Color(0xffcbd5e1),),
+                                child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                  children: [
+                                    Container(child: Icon(Icons.credit_card),color: Color(0xffcbd5e1),),
 
-                                      Text("**** **** **** 9865",style: TextStyle(color: Color(0xffcbd5e1)),),
-                                    ],),
-                                ),
+                                    Text("**** **** **** 9865",style: TextStyle(color: Color(0xffcbd5e1)),),
+                                  ],),
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
                                   border: Border.all(color:Color(0xffcbd5e1),width: 1),
@@ -117,15 +115,18 @@ class _Card3State extends State<Card3> {
                             Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 Expanded(
-                                  child: Container(
-                                    height: 40,
-                                    width:180,
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      border: Border.all(color:Color(0xffcbd5e1),width: 1),
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(left: 8.0),
+                                    child: Container(
+                                      height: 40,
+                                      width:180,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(10),
+                                        border: Border.all(color:Color(0xffcbd5e1),width: 1),
 
+                                      ),
+                                      child: Center(child: Text("Enter Coupon Code",style: GoogleFonts.poppins(fontSize: 12,color: Color(0xffcbd5e1)))),
                                     ),
-                                    child: Center(child: Text("Enter Coupon Code",style: GoogleFonts.poppins(fontSize: 12,color: Color(0xffcbd5e1)))),
                                   ),
                                 ),
                                 Expanded(
@@ -211,14 +212,12 @@ class _Card3State extends State<Card3> {
                               padding: const EdgeInsets.only(left: 10.0,right: 10,bottom: 20,top: 7),
                               child: Container(height: 40,
                                 width: 250,
-                                child: Expanded(
-                                  child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                    children: [
-                                      Container(child: Icon(Icons.credit_card),color: Color(0xffcbd5e1),),
+                                child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                  children: [
+                                    Container(child: Icon(Icons.credit_card),color: Color(0xffcbd5e1),),
 
-                                      Text("**** **** **** 9865",style: TextStyle(color: Color(0xffcbd5e1)),),
-                                    ],),
-                                ),
+                                    Text("**** **** **** 9865",style: TextStyle(color: Color(0xffcbd5e1)),),
+                                  ],),
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
                                   border: Border.all(color:Color(0xffcbd5e1),width: 1),
@@ -228,15 +227,18 @@ class _Card3State extends State<Card3> {
                             Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 Expanded(
-                                  child: Container(
-                                    height: 40,
-                                    width:180,
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      border: Border.all(color:Color(0xffcbd5e1),width: 1),
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(left: 8.0),
+                                    child: Container(
+                                      height: 40,
+                                      width:180,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(10),
+                                        border: Border.all(color:Color(0xffcbd5e1),width: 1),
 
+                                      ),
+                                      child: Center(child: Text("Enter Coupon Code",style: GoogleFonts.poppins(fontSize: 12,color: Color(0xffcbd5e1)))),
                                     ),
-                                    child: Center(child: Text("Enter Coupon Code",style: GoogleFonts.poppins(fontSize: 12,color: Color(0xffcbd5e1)))),
                                   ),
                                 ),
                                 Expanded(

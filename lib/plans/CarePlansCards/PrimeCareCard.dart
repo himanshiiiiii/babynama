@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:babynama/plans/utils/HomePage.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../payment/payment.dart';
-
 class Card2 extends StatefulWidget {
   const Card2({Key? key}) : super(key: key);
 
@@ -101,14 +99,12 @@ class _Card2State extends State<Card2> {
                               padding: const EdgeInsets.only(left: 10.0,right: 10,bottom: 20,top: 7),
                               child: Container(height: 40,
                                 width: 250,
-                                child: Expanded(
-                                  child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                    children: [
-                                      Container(child: Icon(Icons.credit_card),color: Color(0xffcbd5e1),),
+                                child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                  children: [
+                                    Container(child: Icon(Icons.credit_card),color: Color(0xffcbd5e1),),
 
-                                      Text("**** **** **** 9865",style: TextStyle(color: Color(0xffcbd5e1)),),
-                                    ],),
-                                ),
+                                    Text("**** **** **** 9865",style: TextStyle(color: Color(0xffcbd5e1)),),
+                                  ],),
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
                                   border: Border.all(color:Color(0xffcbd5e1),width: 1),
@@ -118,20 +114,23 @@ class _Card2State extends State<Card2> {
                             Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 Expanded(
-                                  child: Container(
-                                    height: 40,
-                                    width:180,
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      border: Border.all(color:Color(0xffcbd5e1),width: 1),
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(left: 8.0),
+                                    child: Container(
+                                      height: 40,
+                                      width:180,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(10),
+                                        border: Border.all(color:Color(0xffcbd5e1),width: 1),
 
+                                      ),
+                                      child: Center(child: Text("Enter Coupon Code",style: GoogleFonts.poppins(fontSize: 12,color: Color(0xffcbd5e1)))),
                                     ),
-                                    child: Center(child: Text("Enter Coupon Code",style: GoogleFonts.poppins(fontSize: 12,color: Color(0xffcbd5e1)))),
                                   ),
                                 ),
                                 Expanded(
                                     child: Padding(
-                                      padding: const EdgeInsets.all(8.0),
+                                      padding: const EdgeInsets.all(10.0),
                                       child: Container(
                                         height: 40,
                                         width:180,
@@ -147,20 +146,15 @@ class _Card2State extends State<Card2> {
 
                             Padding(
                               padding: const EdgeInsets.only(top:35.0),
-                              child: GestureDetector(
-                                onTap: (){
-                                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Payment()));
-                                },
-                                child: Container(
-                                  height: 40,
-                                  width:180,
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                    color:Color(0xff00d2ff),
-                                  ),
+                              child: Container(
+                                height: 40,
+                                width:180,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(10),
+                                  color:Color(0xff00d2ff),
+                                ),
 
-                                  child: Center(child: Text("Pay Now",style: GoogleFonts.poppins(fontSize: 16,color: Colors.black),),
-                                  ),
+                                child: Center(child: Text("Pay Now",style: GoogleFonts.poppins(fontSize: 16,color: Colors.black),),
                                 ),
                               ),
                             )
@@ -212,14 +206,12 @@ class _Card2State extends State<Card2> {
                               padding: const EdgeInsets.only(left: 10.0,right: 10,bottom: 20,top: 7),
                               child: Container(height: 40,
                                 width: 250,
-                                child: Expanded(
-                                  child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                    children: [
-                                      Container(child: Icon(Icons.credit_card),color: Color(0xffcbd5e1),),
+                                child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                  children: [
+                                    Container(child: Icon(Icons.credit_card),color: Color(0xffcbd5e1),),
 
-                                      Text("**** **** **** 9865",style: TextStyle(color: Color(0xffcbd5e1)),),
-                                    ],),
-                                ),
+                                    Text("**** **** **** 9865",style: TextStyle(color: Color(0xffcbd5e1)),),
+                                  ],),
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
                                   border: Border.all(color:Color(0xffcbd5e1),width: 1),
@@ -229,20 +221,23 @@ class _Card2State extends State<Card2> {
                             Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 Expanded(
-                                  child: Container(
-                                    height: 40,
-                                    width:180,
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      border: Border.all(color:Color(0xffcbd5e1),width: 1),
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(left: 8.0),
+                                    child: Container(
+                                      height: 40,
+                                      width:180,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(10),
+                                        border: Border.all(color:Color(0xffcbd5e1),width: 1),
 
+                                      ),
+                                      child: Center(child: Text("Enter Coupon Code",style: GoogleFonts.poppins(fontSize: 12,color: Color(0xffcbd5e1)))),
                                     ),
-                                    child: Center(child: Text("Enter Coupon Code",style: GoogleFonts.poppins(fontSize: 12,color: Color(0xffcbd5e1)))),
                                   ),
                                 ),
                                 Expanded(
                                     child: Padding(
-                                      padding: const EdgeInsets.all(8.0),
+                                      padding: const EdgeInsets.all(10.0),
                                       child: Container(
                                         height: 40,
                                         width:180,
@@ -258,20 +253,15 @@ class _Card2State extends State<Card2> {
 
                             Padding(
                               padding: const EdgeInsets.only(top:35.0),
-                              child: GestureDetector(
-                                onTap: (){
-                                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Payment()));
-                                },
-                                child: Container(
-                                  height: 40,
-                                  width:180,
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                     color:Color(0xff00d2ff),
-                                  ),
+                              child: Container(
+                                height: 40,
+                                width:180,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(10),
+                                   color:Color(0xff00d2ff),
+                                ),
 
-                                  child: Center(child: Text("Pay Now",style: GoogleFonts.poppins(fontSize: 16,color: Colors.black),),
-                                  ),
+                                child: Center(child: Text("Pay Now",style: GoogleFonts.poppins(fontSize: 16,color: Colors.black),),
                                 ),
                               ),
                             )
